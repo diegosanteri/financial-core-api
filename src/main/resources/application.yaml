@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /core-api
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:12345678@cluster0.n18ci.mongodb.net/financial?retryWrites=true&w=majority
+
+
+
